@@ -1,0 +1,10 @@
+/* Empty. Add your own CSS if you like */
+.category-chip{
+    display: inline-block;
+     padding: 5px 15px;
+     font-size: 16px;
+     border-radius: 25px;
+     color: white;
+     text-align: center;
+     background-color: rgb(223, 73, 85);
+} 

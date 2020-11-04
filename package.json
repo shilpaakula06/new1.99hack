@@ -1,0 +1,23 @@
+{
+  "name": "todo",
+  "version": "0.0.1",
+  "description": "An Ionic project",
+  "scripts": {
+    "start": "ionic serve --port=8000 --address=0.0.0.0",
+    "test": "nightwatch",
+    "ci": "rm -rf ./report/* && ((start-server-and-test start http://localhost:8000 test) &&  mv ./report/* ./report/unit.xml ) || mv ./report/* ./report/unit.xml"
+  },
+  "devDependencies": {
+    "@ionic/v1-toolkit": "^1.0.0",
+    "gulp": "^3.5.6",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "chromedriver": "^78.0.0",
+    "nightwatch": "^1.0.19",
+    "start-server-and-test": "^1.7.11"
+  },
+  "dependencies": {
+    "ionic": "^4.12.0"
+  }
+}
